@@ -3,7 +3,7 @@ Library   SeleniumLibrary
 
 
 *** Variables ***
-${urlBase}          https://automacao.qacoders-academy.com.br/login
+${urlBase}          https://automacao.qacoders.dev.br/login/login
 ${emailInput}       id=email
 ${emailValido}      sysadmin@qacoders.com
 ${senhaInput}       id=password
