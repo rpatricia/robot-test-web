@@ -24,7 +24,7 @@ jobs:
     - name: Run Robot Framework tests
       run: |
         echo Executando os testes Web Robot
-         robot --outputdir results/ test/
+         robot --outputdir results/ tests/
       
     - name: Test Report
       uses: actions/upload-artifact@v4
