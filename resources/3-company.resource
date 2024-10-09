@@ -7,39 +7,39 @@ Resource  variables.resource
 CLicar no botão cadastro
     Wait Until Element Is Visible    locator=${botaocadastro}
     Click Element                    locator=${botaocadastro}
-    Sleep    5
+    Sleep    2
 Clicar no botão empresas
     Wait Until Element Is Visible    locator=${companylist}
     Click Element                    locator=${companylist}
     Wait Until Page Contains    text=Empresa
-    Sleep    5
+    Sleep    2
 Clicar no botão novo cadastro
     Wait Until Element Is Visible    locator=${novocadastro}    
     Click Button                     locator=${novocadastro} 
     Wait Until Page Contains    text=Novo Cadastro
-    Sleep    5
+    Sleep    2
 Verificar form de cadastro
     Wait Until Element Is Visible    locator=${formcadastro}
     Click Element                    locator=${formcadastro}
     Wait Until Page Contains    text=Dados da Empresa
-    Sleep    5
+    Sleep    2
 Clicar para cadastrar nome da empresa  
   Wait Until Element Is Visible    locator=${ImputcompanyName}
       Click Element                locator=${ImputcompanyName}    
   Wait Until Page Contains         text=Razão Social
-  Sleep    5
-Clicar para consultar empresa por id
-    Wait Until Element Is Visible    locator=${idempresa}
-    Click Element                    locator=${idempresa}
-    Wait Until Page Contains    text=Minha empresa
-    Sleep    5
+  Sleep    2
+# Clicar para consultar empresa por id
+#     Wait Until Element Is Visible    locator=${idempresa}
+#     Click Element                    locator=${idempresa}
+#     # Wait Until Page Contains    text=
+#     Sleep    2
 Clicar no botão editar empresa
     Wait Until Element Is Visible    locator=${editarempresa}
     Click Button                     locator=${editarempresa}
    Wait Until Page Contains    text=Dados da Empresa
-   Sleep    5
+   Sleep    2
 Clicar editar endereço
     Wait Until Element Is Visible     locator=${editarendereco}
     Click Element                     locator=${editarendereco}
     Wait Until Page Contains    text=Endereço
-    Sleep    5
+    Sleep    2

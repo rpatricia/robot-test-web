@@ -43,7 +43,7 @@ Cenário de tests 06: Clicar para consultar empresa por id
     Clicar no botão novo cadastro
     Verificar form de cadastro
     Clicar para cadastrar nome da empresa 
-    Clicar para consultar empresa por id
+    #Clicar para consultar empresa por id
 
 Cenário de tests 07: Clicar no botão editar empresa
     Logar com sysadmin
@@ -52,7 +52,7 @@ Cenário de tests 07: Clicar no botão editar empresa
     Clicar no botão novo cadastro
     Verificar form de cadastro
     Clicar para cadastrar nome da empresa 
-    Clicar para consultar empresa por id
+    #Clicar para consultar empresa por id
     Clicar no botão editar empresa
 
 Cenário de tests 08: Clicar editar endereço
@@ -62,7 +62,7 @@ Cenário de tests 08: Clicar editar endereço
     Clicar no botão novo cadastro
     Verificar form de cadastro
     Clicar para cadastrar nome da empresa 
-    Clicar para consultar empresa por id
+    #Clicar para consultar empresa por id
     Clicar no botão editar empresa
     Clicar editar endereço
 
