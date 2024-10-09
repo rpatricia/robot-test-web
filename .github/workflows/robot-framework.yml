@@ -1,6 +1,7 @@
 name: Robot Framework Tests
 
-on: workflow_dispatch:
+on: 
+  workflow_dispatch:
 
 jobs:
   test:
