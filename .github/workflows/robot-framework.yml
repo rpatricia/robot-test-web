@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    name: API Tests
+    name: Tests Web Robot
     runs-on: ubuntu-latest
 
     steps:
@@ -24,7 +24,7 @@ jobs:
 
     - name: Run Robot Framework tests
       run: |
-        echo Executando os testes de API do Robot
+        echo Executando os testes Web Robot
          robot --outputdir results/ test/
       
     - name: Test Report
