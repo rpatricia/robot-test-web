@@ -89,10 +89,10 @@ Para rodar os testes, rode o seguinte comando
  
 ## Equipe
  
-- Bruna Brito![@Elias-roccha](https://github.com/Elias-roccha)
+- [@brunabrito](https://github.com/?)
 
-- Luciano Sírio![@lucianosirio](https://github.com/lucianosirio)
+- [@lucianosirio](https://github.com/lucianosirio)
 
-- Renata Patrícia![@rpatricia](https://github.com/rpatricia)
+- [@rpatricia](https://github.com/rpatricia)
 
  
